@@ -1,0 +1,71 @@
+.body{
+    margin-top: 50px;
+}
+.img-body{
+    display: flex;
+    justify-content: center;
+    position: row;
+}
+
+.img{
+   height: 400px;
+   width: auto;
+   display: block;
+   margin: 30px auto;
+   border: 2px solid;
+   padding: 3px;
+   background: white;
+   border-radius: 20px;
+  
+   
+  
+}
+.button-cantener{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.button{ 
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+}
+.but1{
+    margin-right: 70px;
+    width: 90px;
+    height: 50px;
+   
+    border-radius: 20px;
+}
+.but1:hover{
+    margin-right: 70px;
+    width: 90px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    box-shadow: black 0px 0px 40px 5px;
+    transition: 0.3s;
+}
+.button:hover{ 
+    width: 90px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 40px 5px;
+    transition: 0.3s;
+}
+.img:hover{
+    height: 402px;
+    width: auto;
+    display: block;
+    margin: 30px auto;
+    border: 3px solid aquamarine;
+    background: white;
+    border-radius: 20px;
+    box-shadow: black 3px 0px 20px 3px;
+    transition: 0.4s;
+   
+    
+   
+ }
