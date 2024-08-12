@@ -26,3 +26,15 @@ function ram() {
     ram3.src = "./img/shri ram.jpg";
     
 }
+function DarkTheme(){
+    const darkMain = document.getElementById("BodyId")
+    darkMain.classList.remove("body-light")
+    darkMain.classList.add("body-dark")
+
+}
+function LightTheme(){
+    const darkMain = document.getElementById("BodyId")
+    darkMain.classList.remove("body-dark")
+    darkMain.classList.add("body-light")
+
+}

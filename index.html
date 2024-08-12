@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body class="body">
+<body class="body-light" id="BodyId">
+    <div class="light-theme-img">
+        <img src="img/sun-and-moon.png" class="icon-img" onclick="LightTheme()" id="light">
+        <img src="img/sun-and-moon (1).png" class="icon-img" onclick="DarkTheme()" id="Dark">
+    </div>
 
     <center>
         <h1>Theme-Switcher</h1>
@@ -20,14 +24,14 @@
 
     </div>
 
-    <div class="button-cantener">
-        <button class="but1" onclick="ram()">
+    <div class="button-cantener" >
+        <button class="button" onclick="ram()" id="AllBtn">
             Ram
         </button>
-        <button class="but1" onclick="mahadev()">
+        <button class="button" onclick="mahadev()" id="AllBtn">
             Mahadev
         </button>
-        <button class="button" onclick="krishna()">
+        <button class="button" onclick="krishna()" id="AllBtn">
             krishna
         </button>
     </div>
